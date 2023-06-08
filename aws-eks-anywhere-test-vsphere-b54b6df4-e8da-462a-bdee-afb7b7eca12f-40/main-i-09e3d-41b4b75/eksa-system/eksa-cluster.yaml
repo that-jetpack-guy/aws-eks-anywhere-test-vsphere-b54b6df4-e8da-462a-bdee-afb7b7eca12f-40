@@ -6,7 +6,7 @@ metadata:
 spec:
   bundlesRef:
     apiVersion: anywhere.eks.amazonaws.com/v1alpha1
-    name: bundles-7091
+    name: bundles-7092
     namespace: eksa-system
   clusterNetwork:
     cniConfig:
@@ -39,7 +39,7 @@ spec:
   managementCluster:
     name: main-i-09e3d-41b4b75
   workerNodeGroupConfigurations:
-  - count: 3
+  - count: 1
     machineGroupRef:
       kind: VSphereMachineConfig
       name: main-i-09e3d-41b4b75
